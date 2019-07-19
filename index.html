@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+  <link rel="icon" href="https://templates.pingendo.com/assets/Pingendo_favicon.ico">
+  <title>Paweł Michałkowski</title>
+  <meta name="description" content="Paweł Michałkowski portfolio weebsite">
+  <meta name="keywords" content="Paweł Michałkowski portfolio weebsite">
+  <!-- CSS dependencies -->
+  <link rel="stylesheet" href="aquamarine.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <!-- Script: Make my navbar transparent when the document is scrolled to top -->
+  <script src="js/navbar-ontop.js"></script>
+  <!-- Script: Animated entrance -->
+  <script src="js/animate-in.js"></script>
+  <!-- Sript: clock-->
+  <script type="text/javascript" src="js/timer.js"></script>
+  <!--wykres-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style> * {box-sizing: border-box}
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
+</style>
+</head>
+
+<body class="text-center" onload="odliczanie()">
+  <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbar2SupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item mx-2"><a class="nav-link" href="#About Me">About Me</a></li>
+          <li class="nav-item mx-2"><a class="nav-link" href="">Blog</a></li>
+          <li class="nav-item mx-2"><a class="nav-link" href="#schedule">Portfolio</a></li>
+        </ul>
+        <a class="btn navbar-btn mx-2 text-white btn-outline-light" href="#register">Contact</a>
+        <a class="nav-item" style="">
+          <div id="zegar"></div>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <div class="d-flex align-items-center section-aquamarine py-5 cover" style="background-image: url(&quot;assets/conference/cover.jpg&quot;);">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-white mt-5">
+          <h1 class="display-2 d-none d-md-block">Paweł Michałkowski</h1>
+          <h1 class="display-4 d-block d-md-none">Conference Pingendo</h1>
+          <p class="">Java Junior Developer</p>
+          <i class="d-block fa fa-angle-down pt-5 fa-3x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 section-parallax" style="background-image: url(&quot;assets/conference/venue.jpg&quot;);" id="About Me">
+    <div class="container my-5 bg-light p-4">
+      <div class="row mx-auto">
+        <div class="col-md-12">
+          <h1 class="mb-3">About Me</h1>
+          <p class="" contenteditable="true">I have been working in Information Technology industry for last 4-5 years. I had an opportunity to work in teams and independently. I am very comfortable in both the environments. I have developed Client/Server and Intranet applications, involving full life cycle, which includes Requirement Phase, Analysis/Design, Development, Unit Testing, Integrating Testing, Customer/User Testing, and Rollout/Implementation. I have worked on various tools in my career, which includes MS Access, MS SQL Server, SQL, VBA, JavaScript, VB Script, COM/DCOM, ADO, Active X, ASP, HTML, DHTML, XML, XSL, CSS, Visual InterDev, Visual Basic, FrontPage, Dreamweaver, Flash, Visual Source Safe and Adobe PhotoShop. I have always met the project deadlines, for which I had to work late hours and weekends. For the past two years, I have been working as a Web Developer. Where I have involved in the beginning of the project itself, i.e., Requirement gathering phase. Online Job Search is a successful multi-tier web-based application, which uses MS SQL Server 7.0 as backend data store and Visual Basic 6.0 and ASP as front-end. It provides a user-friendly platform for Job Seekers as well as Job Submitters, from across the globe to register, search and submit Vacancies in their local areas. We had meetings with the Customers/Users to get all the required information. This application gives various functionalities (forgotten password, Mailing list and etc) and different security levels to the Users and Administrators. My strengths are my client-relationship management skills, and my leadership ability.</p>
+          <h1>My Skills</h1>
+          <p>HTML</p>
+          <div class="container">
+            <div class="skills html">90%</div>
+          </div>
+          <p>CSS</p>
+          <div class="container">
+            <div class="skills css">80%</div>
+          </div>
+          <p>JavaScript</p>
+          <div class="container">
+            <div class="skills js">65%</div>
+          </div>
+          <p>PHP</p>
+          <div class="container">
+            <div class="skills php">60%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 section-parallax" style="background-image: url(&quot;assets/conference/schedule.jpg&quot;);" id="schedule">
+    <div class="container section-aquamarine">
+      <div class="row">
+        <div class="col-md-12" style="">
+          <h1 class="text-white mt-4">Portfolio</h1>
+          <div class="col-lg-12">
+            <a data-fancybox="gallery" href="assets/12.jp"><img src="assets/12.jpg" class="img-fluid"></a>
+          </div>
+          <a href="https://github.com/PKMich89" target="_blank" class="btn btn-primary"><i class="fa fa-user fa-fw"></i>My Github &nbsp; </a>
+        </div>
+      </div>
+      <div class="row text-left text-dark"></div>
+    </div>
+  </div>
+  <div class="py-5 section-aquamarine" id="register" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="">Contact</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 text-md-left text-center" style="">
+          <h1 class="text-white">Contact Adress</h1>
+          <p>Wroclaw Dolny-Śląsk, Poland<br>ul, Księdza Marcina Lutra 4, 54-239<br><br></p>
+        </div>
+        <div class="my-3 col-lg-4 col-md-4" style="">
+          <h3>Email Contact</h3>
+          <form>
+            <fieldset class="form-group my-3">
+              <input type="email" class="form-control" id="Input Email" placeholder="Email"> </fieldset>
+            <fieldset class="form-group my-3">
+              <input type="message" class="form-control" id="Input Message" placeholder="Message"> </fieldset>
+            <button type="submit" class="btn btn-outline-primary"><i class="fa fa-user fa-fw"></i>Submit</button>
+          </form>
+        </div>
+        <div class="col-md-4 align-self-center animate-in-right" style=""><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.9303066455604!2d16.980494415324543!3d51.12819354617947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fea01d8a77a53%3A0xd43b737261f7cf66!2sWroc%C5%82awska+Wy%C5%BCsza+Szko%C5%82a+Informatyki+Stosowanej+%22Horyzont%22!5e0!3m2!1spl!2spl!4v1553251133243" width="400" height="300" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+        </div>
+      </div>
+      <div class="row"></div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="text-md-left text-center p-4 bg-dark text-light">
+    <div class="container">
+      <div class="row" style="">
+        <div class="col-lg-12">
+          <div class="my-3 col-lg-12">
+            <h3>Follow</h3>
+            <a href="https://www.facebook.com" target="blank"><i class="fa fa-facebook-square text-muted fa-3x m-2"></i></a>
+            <a href="https://www.instagram.com" target="blank"><i class="fa fa-3x fa-instagram text-muted m-2"></i></a>
+            <a href="https://twitter.com" target="blank"><i class="fa fa-3x fa-twitter m-2 text-muted"></i></a>
+            <a href="https://plus.google.com" target="blank"><i class="fa fa-3x fa-google-plus-official text-muted m-2"></i></a>
+            <a href="https://www.youtube.com" target="blank"><i class="fa fa-3x text-muted fa-youtube-play m-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="js/smooth-scroll.js" style=""></script>
+  
+</body>
+
+</html>
